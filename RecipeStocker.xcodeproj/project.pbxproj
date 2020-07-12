@@ -3,10 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E86F480723B88DF100E76342 /* RecipeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F480623B88DF100E76342 /* RecipeEdit.swift */; };
+		E87F447E23BA499300B5337F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F447D23BA499300B5337F /* Coordinator.swift */; };
+		E88BE9C823B793AD0014C3C9 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9BB23B793AD0014C3C9 /* charleyrivers.jpg */; };
+		E88BE9C923B793AD0014C3C9 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9BC23B793AD0014C3C9 /* chilkoottrail.jpg */; };
+		E88BE9CA23B793AD0014C3C9 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9BD23B793AD0014C3C9 /* chincoteague.jpg */; };
+		E88BE9CB23B793AD0014C3C9 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9BE23B793AD0014C3C9 /* hiddenlake.jpg */; };
+		E88BE9CC23B793AD0014C3C9 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9BF23B793AD0014C3C9 /* icybay.jpg */; };
+		E88BE9CD23B793AD0014C3C9 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C023B793AD0014C3C9 /* lakemcdonald.jpg */; };
+		E88BE9CE23B793AD0014C3C9 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C123B793AD0014C3C9 /* rainbowlake.jpg */; };
+		E88BE9CF23B793AD0014C3C9 /* RecipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C223B793AD0014C3C9 /* RecipeData.json */; };
+		E88BE9D023B793AD0014C3C9 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C323B793AD0014C3C9 /* silversalmoncreek.jpg */; };
+		E88BE9D123B793AD0014C3C9 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C423B793AD0014C3C9 /* stmarylake.jpg */; };
+		E88BE9D223B793AD0014C3C9 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C523B793AD0014C3C9 /* turtlerock.jpg */; };
+		E88BE9D323B793AD0014C3C9 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C623B793AD0014C3C9 /* twinlake.jpg */; };
+		E88BE9D423B793AD0014C3C9 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E88BE9C723B793AD0014C3C9 /* umbagog.jpg */; };
+		E890BBBE23CC14CF0096AF14 /* ListUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890BBBD23CC14CF0096AF14 /* ListUserData.swift */; };
 		E8E8D92423B777E900709EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D92323B777E900709EE6 /* AppDelegate.swift */; };
 		E8E8D92623B777E900709EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D92523B777E900709EE6 /* SceneDelegate.swift */; };
 		E8E8D92823B777E900709EE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D92723B777E900709EE6 /* ContentView.swift */; };
@@ -15,6 +31,15 @@
 		E8E8D93023B777ED00709EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E8D92E23B777ED00709EE6 /* LaunchScreen.storyboard */; };
 		E8E8D93B23B777ED00709EE6 /* RecipeStockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D93A23B777ED00709EE6 /* RecipeStockerTests.swift */; };
 		E8E8D94623B777ED00709EE6 /* RecipeStockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D94523B777ED00709EE6 /* RecipeStockerUITests.swift */; };
+		E8E8D95723B77E7400709EE6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D95623B77E7400709EE6 /* Data.swift */; };
+		E8E8D95A23B786E000709EE6 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D95923B786E000709EE6 /* RecipeList.swift */; };
+		E8E8D95C23B7884300709EE6 /* RecipeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D95B23B7884300709EE6 /* RecipeRow.swift */; };
+		E8E8D95E23B7891300709EE6 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8D95D23B7891300709EE6 /* RecipeDetail.swift */; };
+		E8EC2A2923C05AB500CFC168 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E8EC2A2823C05AB500CFC168 /* Realm */; };
+		E8EC2A2B23C05AB500CFC168 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E8EC2A2A23C05AB500CFC168 /* RealmSwift */; };
+		E8EC2A2D23C062AC00CFC168 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC2A2C23C062AC00CFC168 /* Recipe.swift */; };
+		E8EC2A3023C0674400CFC168 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC2A2F23C0674400CFC168 /* RealmManager.swift */; };
+		E8EC2A3223C1C8C900CFC168 /* BindableResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC2A3123C1C8C900CFC168 /* BindableResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E86F480623B88DF100E76342 /* RecipeEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEdit.swift; sourceTree = "<group>"; };
+		E87F447D23BA499300B5337F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E88BE9BB23B793AD0014C3C9 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		E88BE9BC23B793AD0014C3C9 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
+		E88BE9BD23B793AD0014C3C9 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
+		E88BE9BE23B793AD0014C3C9 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
+		E88BE9BF23B793AD0014C3C9 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
+		E88BE9C023B793AD0014C3C9 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
+		E88BE9C123B793AD0014C3C9 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		E88BE9C223B793AD0014C3C9 /* RecipeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RecipeData.json; sourceTree = "<group>"; };
+		E88BE9C323B793AD0014C3C9 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
+		E88BE9C423B793AD0014C3C9 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
+		E88BE9C523B793AD0014C3C9 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
+		E88BE9C623B793AD0014C3C9 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
+		E88BE9C723B793AD0014C3C9 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
+		E890BBBD23CC14CF0096AF14 /* ListUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserData.swift; sourceTree = "<group>"; };
 		E8E8D92023B777E900709EE6 /* RecipeStocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeStocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E8D92323B777E900709EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8E8D92523B777E900709EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +90,13 @@
 		E8E8D94123B777ED00709EE6 /* RecipeStockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeStockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E8D94523B777ED00709EE6 /* RecipeStockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStockerUITests.swift; sourceTree = "<group>"; };
 		E8E8D94723B777ED00709EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E8D95623B77E7400709EE6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E8E8D95923B786E000709EE6 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		E8E8D95B23B7884300709EE6 /* RecipeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRow.swift; sourceTree = "<group>"; };
+		E8E8D95D23B7891300709EE6 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		E8EC2A2C23C062AC00CFC168 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E8EC2A2F23C0674400CFC168 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		E8EC2A3123C1C8C900CFC168 /* BindableResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EC2A2B23C05AB500CFC168 /* RealmSwift in Frameworks */,
+				E8EC2A2923C05AB500CFC168 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +126,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E88BE9BA23B793AD0014C3C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88BE9BB23B793AD0014C3C9 /* charleyrivers.jpg */,
+				E88BE9BC23B793AD0014C3C9 /* chilkoottrail.jpg */,
+				E88BE9BD23B793AD0014C3C9 /* chincoteague.jpg */,
+				E88BE9BE23B793AD0014C3C9 /* hiddenlake.jpg */,
+				E88BE9BF23B793AD0014C3C9 /* icybay.jpg */,
+				E88BE9C023B793AD0014C3C9 /* lakemcdonald.jpg */,
+				E88BE9C123B793AD0014C3C9 /* rainbowlake.jpg */,
+				E88BE9C223B793AD0014C3C9 /* RecipeData.json */,
+				E88BE9C323B793AD0014C3C9 /* silversalmoncreek.jpg */,
+				E88BE9C423B793AD0014C3C9 /* stmarylake.jpg */,
+				E88BE9C523B793AD0014C3C9 /* turtlerock.jpg */,
+				E88BE9C623B793AD0014C3C9 /* twinlake.jpg */,
+				E88BE9C723B793AD0014C3C9 /* umbagog.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E8E8D91723B777E900709EE6 = {
 			isa = PBXGroup;
 			children = (
-				E8E8D92223B777E900709EE6 /* RecipeStocker */,
+				E8EC2A2E23C0672500CFC168 /* Entity */,
+				E87F447D23BA499300B5337F /* Coordinator.swift */,
+				E86F480623B88DF100E76342 /* RecipeEdit.swift */,
+				E88BE9BA23B793AD0014C3C9 /* Resources */,
+				E8E8D92B23B777ED00709EE6 /* Preview Content */,
+				E8E8D95D23B7891300709EE6 /* RecipeDetail.swift */,
+				E8E8D95323B777FE00709EE6 /* Models */,
+				E8E8D92323B777E900709EE6 /* AppDelegate.swift */,
+				E8E8D92523B777E900709EE6 /* SceneDelegate.swift */,
+				E8E8D92723B777E900709EE6 /* ContentView.swift */,
+				E8E8D92923B777ED00709EE6 /* Assets.xcassets */,
+				E8E8D92E23B777ED00709EE6 /* LaunchScreen.storyboard */,
+				E8E8D93123B777ED00709EE6 /* Info.plist */,
+				E8E8D95923B786E000709EE6 /* RecipeList.swift */,
+				E8E8D95B23B7884300709EE6 /* RecipeRow.swift */,
 				E8E8D93923B777ED00709EE6 /* RecipeStockerTests */,
 				E8E8D94423B777ED00709EE6 /* RecipeStockerUITests */,
 				E8E8D92123B777E900709EE6 /* Products */,
@@ -94,20 +178,6 @@
 				E8E8D94123B777ED00709EE6 /* RecipeStockerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E8E8D92223B777E900709EE6 /* RecipeStocker */ = {
-			isa = PBXGroup;
-			children = (
-				E8E8D92323B777E900709EE6 /* AppDelegate.swift */,
-				E8E8D92523B777E900709EE6 /* SceneDelegate.swift */,
-				E8E8D92723B777E900709EE6 /* ContentView.swift */,
-				E8E8D92923B777ED00709EE6 /* Assets.xcassets */,
-				E8E8D92E23B777ED00709EE6 /* LaunchScreen.storyboard */,
-				E8E8D93123B777ED00709EE6 /* Info.plist */,
-				E8E8D92B23B777ED00709EE6 /* Preview Content */,
-			);
-			path = RecipeStocker;
 			sourceTree = "<group>";
 		};
 		E8E8D92B23B777ED00709EE6 /* Preview Content */ = {
@@ -136,6 +206,25 @@
 			path = RecipeStockerUITests;
 			sourceTree = "<group>";
 		};
+		E8E8D95323B777FE00709EE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8EC2A2C23C062AC00CFC168 /* Recipe.swift */,
+				E8E8D95623B77E7400709EE6 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8EC2A2E23C0672500CFC168 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E890BBBD23CC14CF0096AF14 /* ListUserData.swift */,
+				E8EC2A2F23C0674400CFC168 /* RealmManager.swift */,
+				E8EC2A3123C1C8C900CFC168 /* BindableResults.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +241,10 @@
 			dependencies = (
 			);
 			name = RecipeStocker;
+			packageProductDependencies = (
+				E8EC2A2823C05AB500CFC168 /* Realm */,
+				E8EC2A2A23C05AB500CFC168 /* RealmSwift */,
+			);
 			productName = RecipeStocker;
 			productReference = E8E8D92023B777E900709EE6 /* RecipeStocker.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +317,9 @@
 				Base,
 			);
 			mainGroup = E8E8D91723B777E900709EE6;
+			packageReferences = (
+				E8EC2A2723C05AB500CFC168 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = E8E8D92123B777E900709EE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,8 +337,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E8D93023B777ED00709EE6 /* LaunchScreen.storyboard in Resources */,
+				E88BE9C923B793AD0014C3C9 /* chilkoottrail.jpg in Resources */,
+				E88BE9D423B793AD0014C3C9 /* umbagog.jpg in Resources */,
 				E8E8D92D23B777ED00709EE6 /* Preview Assets.xcassets in Resources */,
+				E88BE9C823B793AD0014C3C9 /* charleyrivers.jpg in Resources */,
+				E88BE9D023B793AD0014C3C9 /* silversalmoncreek.jpg in Resources */,
+				E88BE9D223B793AD0014C3C9 /* turtlerock.jpg in Resources */,
 				E8E8D92A23B777ED00709EE6 /* Assets.xcassets in Resources */,
+				E88BE9D123B793AD0014C3C9 /* stmarylake.jpg in Resources */,
+				E88BE9D323B793AD0014C3C9 /* twinlake.jpg in Resources */,
+				E88BE9CE23B793AD0014C3C9 /* rainbowlake.jpg in Resources */,
+				E88BE9CF23B793AD0014C3C9 /* RecipeData.json in Resources */,
+				E88BE9CA23B793AD0014C3C9 /* chincoteague.jpg in Resources */,
+				E88BE9CD23B793AD0014C3C9 /* lakemcdonald.jpg in Resources */,
+				E88BE9CB23B793AD0014C3C9 /* hiddenlake.jpg in Resources */,
+				E88BE9CC23B793AD0014C3C9 /* icybay.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +376,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E8D95E23B7891300709EE6 /* RecipeDetail.swift in Sources */,
+				E8EC2A3223C1C8C900CFC168 /* BindableResults.swift in Sources */,
 				E8E8D92423B777E900709EE6 /* AppDelegate.swift in Sources */,
+				E8EC2A2D23C062AC00CFC168 /* Recipe.swift in Sources */,
+				E87F447E23BA499300B5337F /* Coordinator.swift in Sources */,
+				E8E8D95723B77E7400709EE6 /* Data.swift in Sources */,
+				E8EC2A3023C0674400CFC168 /* RealmManager.swift in Sources */,
 				E8E8D92623B777E900709EE6 /* SceneDelegate.swift in Sources */,
+				E8E8D95C23B7884300709EE6 /* RecipeRow.swift in Sources */,
+				E8E8D95A23B786E000709EE6 /* RecipeList.swift in Sources */,
+				E890BBBE23CC14CF0096AF14 /* ListUserData.swift in Sources */,
 				E8E8D92823B777E900709EE6 /* ContentView.swift in Sources */,
+				E86F480723B88DF100E76342 /* RecipeEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +554,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RecipeStocker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 3C58294T5Q;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RecipeStocker/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,10 +574,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RecipeStocker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 3C58294T5Q;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RecipeStocker/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,6 +713,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8EC2A2723C05AB500CFC168 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8EC2A2823C05AB500CFC168 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8EC2A2723C05AB500CFC168 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		E8EC2A2A23C05AB500CFC168 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8EC2A2723C05AB500CFC168 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8E8D91823B777E900709EE6 /* Project object */;
 }
